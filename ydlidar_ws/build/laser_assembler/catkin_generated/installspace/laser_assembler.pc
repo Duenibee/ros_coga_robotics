@@ -1,0 +1,8 @@
+prefix=/home/cona/ydlidar_ws/install
+
+Name: laser_assembler
+Description: Description of laser_assembler
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/cona/catkin_ws2/devel
+
+Name: urdf_tutorials
+Description: Description of urdf_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

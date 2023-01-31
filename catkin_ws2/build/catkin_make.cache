@@ -1,0 +1,2 @@
+beginner_tutorials:gazebo_ros_demos/gazebo_tutorials:gazebo_ros_demos/rrbot_control:gazebo_ros_demos/rrbot_description:gazebo_ros_demos/rrbot_gazebo:learning_tf:testbot_description:urdf_tutorial:ydlidar_ros_driver
+-DCATKIN_DEVEL_PREFIX=/home/cona/catkin_ws2/devel -DCMAKE_INSTALL_PREFIX=/home/cona/catkin_ws2/install -G Unix Makefiles

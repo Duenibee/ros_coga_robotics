@@ -1,0 +1,8 @@
+prefix=/home/cona/catkin_ws2/install
+
+Name: basic_subscribe_tutorial
+Description: Description of basic_subscribe_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
