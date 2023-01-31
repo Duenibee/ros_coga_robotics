@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="myfirst">
+  <link name="base_link"/>
+
+
+  <link name="laser_frame1"/>
+  <joint name="laser_frame1_fixed" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser_frame1"/>
+    <origin rpy="0.0 0.0 -0.78" xyz="0.09 -0.12 0.0"/>
+  </joint>
+
+  <link name="laser_frame2"/>
+  <joint name="laser_frame2_fixed" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser_frame2"/>
+    <origin rpy="0.0 0.0 0.78" xyz="-0.09 0.12 0.0"/>
+  </joint>
+
+  <link name="camera">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+  </link>
+
+  <joint name="camera_fixed" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera"/>
+    <origin xyz="0 0.9 0.7"/>
+  </joint>
+
+
+</robot>

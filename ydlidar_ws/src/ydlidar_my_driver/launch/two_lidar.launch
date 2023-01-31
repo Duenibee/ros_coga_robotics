@@ -1,0 +1,6 @@
+<launch> 
+    <include file="$(find ydlidar_ros_driver)/launch/lidar2.launch" /> 
+    <include file="$(find ydlidar_ros_driver)/launch/G6_G7.launch" /> 
+    <param name='robot_description' textfile='$(find ydlidar_ros_driver)/urdf/01-myfirst.urdf'/>
+    <node pkg='robot_state_publisher' type='robot_state_publisher' name='robot_state_publisher'/>
+</launch>
